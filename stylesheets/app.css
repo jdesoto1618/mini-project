@@ -91,6 +91,12 @@ p {
   padding: 0 3rem 3rem 3rem;
 }
 
+@media screen and (min-width: 64em) {
+  #features {
+    margin-left: -4rem;
+  }
+}
+
 .features-tagline-container {
   margin-bottom: 5rem;
 }
@@ -134,7 +140,7 @@ p {
     transform: skew(-7.5deg);
   }
   .feature-card:nth-child(odd) {
-    margin-right: 7rem;
+    margin-right: 8rem;
   }
   .feature-card .learn-more-button {
     width: 12.5rem;
@@ -154,14 +160,32 @@ p {
   }
   .feature-card-image.bg-image {
     padding-bottom: 25%;
-    left: 0;
+    left: -7.5rem;
+    width: 23.2rem;
   }
 }
 
 @media screen and (min-width: 64em) {
   .search-image {
     background-image: url(../images/image3.png);
-    width: 23.2rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .access-image {
+    background-image: url(../images/image4.png);
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .print-image {
+    background-image: url(../images/image5.png);
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .security-image {
+    background-image: url(../images/image6.png);
   }
 }
 

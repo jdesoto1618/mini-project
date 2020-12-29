@@ -1,3 +1,9 @@
+#features {
+  @include desktop__1024 {
+    margin-left: -4rem;
+  }
+}
+
 .features-tagline-container {
   margin-bottom: $section-separator;
 }
@@ -40,7 +46,7 @@
     }
 
     &:nth-child(odd) {
-      margin-right: 7rem;
+      margin-right: 8rem;
     }
 
     .learn-more-button {
@@ -56,7 +62,8 @@
   @include desktop__1024 {
     &.bg-image {
       padding-bottom: 25%;
-      left: 0;
+      left: -7.5rem;
+      width: 23.2rem;
     }
     @include absolute-centering('vertical');
   }
@@ -65,7 +72,25 @@
 .search-image {
   @include desktop__1024 {
     background-image: url(../images/image3.png);
-    width: 23.2rem;
+    
+  }
+}
+
+.access-image {
+  @include desktop__1024 {
+    background-image: url(../images/image4.png);
+  }
+}
+
+.print-image {
+  @include desktop__1024 {
+    background-image: url(../images/image5.png);
+  }
+}
+
+.security-image {
+  @include desktop__1024 {
+    background-image: url(../images/image6.png);
   }
 }
 
