@@ -6,4 +6,8 @@ body {
   font-size: 62.5%;
 }
 
+.main {
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
 /*# sourceMappingURL=app.css.map */

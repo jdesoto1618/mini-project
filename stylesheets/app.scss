@@ -1,14 +1,4 @@
-@mixin tablet {
-  @media screen and (min-width: 40em) {
-    @content;
-  }
-}
-
-@mixin desktop {
-  @media screen and (min-width: 64em) {
-    @content;
-  }
-}
+@import 'mixins';
 
 html,
 body {
@@ -16,4 +6,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+.main {
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
