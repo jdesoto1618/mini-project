@@ -1,6 +1,7 @@
 @import 'mixins';
 @import 'variables';
 @import 'fonts';
+@import 'links';
 
 html,
 body {
@@ -66,8 +67,25 @@ body {
 }
 
 .site-nav {
+  width: 70%;
   ul {
     @include flex-centering;
     list-style-type: none;
+    padding-left: 5rem;
+    li {
+      &:first-of-type {
+        a {
+          color: $active-link-color;
+        }
+      }
+    }
   }
+
+  .nav-link {
+    margin-right: 3rem;
+  }
+}
+
+.request-demo-container {
+  @include flex-centering('vertical');
 }

@@ -1,0 +1,10 @@
+a,
+button {
+  font-family: $primary-font;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: $inactive-link-color;
+  @include desktop__1024 {
+    font-size: 1.6rem;
+  }
+}

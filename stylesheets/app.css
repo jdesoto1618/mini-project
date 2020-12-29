@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+a,
+button {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #4B5D68;
+}
+@media screen and (min-width: 64em) {
+  a,
+button {
+    font-size: 1.6rem;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -64,9 +78,24 @@ body {
   display: flex;
 }
 
+.site-nav {
+  width: 70%;
+}
 .site-nav ul {
   display: flex;
   list-style-type: none;
+  padding-left: 5rem;
+}
+.site-nav ul li:first-of-type a {
+  color: #212353;
+}
+.site-nav .nav-link {
+  margin-right: 3rem;
+}
+
+.request-demo-container {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=app.css.map */
