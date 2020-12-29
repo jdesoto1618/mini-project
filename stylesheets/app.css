@@ -25,6 +25,29 @@ button {
   text-align: right;
 }
 
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+.home {
+  margin-top: 5rem;
+}
+
+.about-image {
+  background: url(../images/about-image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 50%;
+}
+
 html,
 body {
   padding: 0;

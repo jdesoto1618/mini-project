@@ -9,3 +9,15 @@
 .text-right {
   text-align: right;
 }
+
+h2 {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+p {
+  font-family: $primary-font;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
