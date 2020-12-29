@@ -52,6 +52,7 @@ h4 {
   font-size: 2rem;
   font-weight: normal;
   color: #212353;
+  margin: 1.5rem 0;
 }
 
 p {
@@ -93,6 +94,18 @@ p {
 .feature-card {
   border-radius: 5rem;
   min-height: 20rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  margin-bottom: 1.5rem;
+}
+.feature-card:last-of-type {
+  margin-bottom: 0;
+}
+
+.feature-copy {
+  margin-top: 0;
 }
 
 .search-card {
