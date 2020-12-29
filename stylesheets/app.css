@@ -47,10 +47,6 @@ p {
   font-size: 1.6rem;
 }
 
-.home {
-  margin-top: 5rem;
-}
-
 .top-about-image {
   background: url(../images/about-image.png);
   padding-bottom: 50%;
@@ -91,6 +87,10 @@ body {
 
 .main {
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+section {
+  margin-top: 5rem;
 }
 
 .nav-site-icon-container {

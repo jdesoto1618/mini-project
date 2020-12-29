@@ -17,6 +17,10 @@ body {
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
+section {
+  margin-top: $section-separator;
+}
+
 .nav-site-icon-container {
   position: relative;
   width: 5rem;
