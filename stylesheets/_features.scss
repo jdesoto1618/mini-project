@@ -2,6 +2,13 @@
   margin-bottom: $section-separator;
 }
 
+.feature-cards-container {
+  @include desktop__1024 {
+    @include flex-centering;
+    flex-wrap: wrap;
+  }
+}
+
 .feature-card {
   border-radius: $container-border-radius;
   min-height: 22rem;
@@ -12,6 +19,10 @@
   position: relative;
   &:last-of-type {
     margin-bottom: 0;
+  }
+
+  @include desktop__1024 {
+    width: 45%;
   }
 }
 

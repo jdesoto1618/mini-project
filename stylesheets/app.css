@@ -95,6 +95,13 @@ p {
   margin-bottom: 5rem;
 }
 
+@media screen and (min-width: 64em) {
+  .feature-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .feature-card {
   border-radius: 5rem;
   min-height: 22rem;
@@ -107,6 +114,11 @@ p {
 }
 .feature-card:last-of-type {
   margin-bottom: 0;
+}
+@media screen and (min-width: 64em) {
+  .feature-card {
+    width: 45%;
+  }
 }
 
 .feature-card-image.bg-image {
