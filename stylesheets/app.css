@@ -97,7 +97,7 @@ p {
 
 .feature-card {
   border-radius: 5rem;
-  min-height: 20rem;
+  min-height: 22rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -110,6 +110,7 @@ p {
 
 .feature-copy {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .search-card {

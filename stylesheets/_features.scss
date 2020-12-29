@@ -4,7 +4,7 @@
 
 .feature-card {
   border-radius: $container-border-radius;
-  min-height: 20rem;
+  min-height: 22rem;
   @include flex-centering('horizontal');
   flex-direction: column;
   padding: 0 2rem;
@@ -16,6 +16,7 @@
 
 .feature-copy {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .search-card {
