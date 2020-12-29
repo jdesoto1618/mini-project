@@ -42,8 +42,13 @@ body {
   }
 }
 
+.site-header {
+  @include flex-centering;
+}
+
 .site-nav {
   ul {
+    @include flex-centering;
     list-style-type: none;
   }
 }

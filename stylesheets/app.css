@@ -36,7 +36,12 @@ body {
   background-color: #F063B8;
 }
 
+.site-header {
+  display: flex;
+}
+
 .site-nav ul {
+  display: flex;
   list-style-type: none;
 }
 
