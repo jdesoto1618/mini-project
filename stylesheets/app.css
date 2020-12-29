@@ -115,6 +115,7 @@ body {
   padding: 1rem 0;
   background-color: #fff;
   border-radius: 5rem;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 }
 .request-demo-button i {
   color: #9C69E2;
