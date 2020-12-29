@@ -4,8 +4,6 @@
 
 .top-about-image {
   background: url(../images/about-image.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   padding-bottom: 50%;
 }
 
@@ -18,4 +16,18 @@
   margin-top: 3rem;
   background-color: $light-pink;
   border-radius: $container-border-radius;
+}
+
+.bottom-about-image {
+  background: url(../images/bottom-about-image.png);
+  background-position: center;
+  padding-bottom: 50%;
+}
+
+.bottom-about-tagline {
+  font-size: 2.25rem;
+}
+
+.bottom-about-copy {
+  padding: 0 3rem 3rem 3rem;
 }
