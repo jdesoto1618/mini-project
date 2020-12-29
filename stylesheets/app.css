@@ -98,7 +98,6 @@ p {
 @media screen and (min-width: 64em) {
   .feature-cards-container {
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
   }
 }
@@ -109,7 +108,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 0 2rem 0 6rem;
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -118,9 +117,27 @@ p {
 }
 @media screen and (min-width: 64em) {
   .feature-card {
-    width: 32.5%;
+    width: 35%;
     height: 35.8rem;
     margin-right: 2rem;
+  }
+  .feature-card:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    top: -2rem;
+    bottom: auto;
+    left: -2rem;
+    width: 4.5rem;
+    height: 100%;
+    border-radius: 5rem;
+    transform: skew(-7.5deg);
+  }
+  .feature-card:nth-child(odd) {
+    margin-right: 7rem;
+  }
+  .feature-card .learn-more-button {
+    width: 12.5rem;
   }
 }
 
@@ -137,6 +154,7 @@ p {
   }
   .feature-card-image.bg-image {
     padding-bottom: 25%;
+    left: 0;
   }
 }
 
