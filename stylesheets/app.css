@@ -34,7 +34,7 @@ body {
   position: absolute;
   border-radius: 2rem;
   top: auto;
-  bottom: 0;
+  bottom: -1.5rem;
   right: auto;
 }
 .nav-site-icon-container:before {
@@ -76,7 +76,7 @@ body {
 
 .site-header {
   display: flex;
-  padding-top: 2.5rem;
+  align-items: center;
 }
 
 .site-nav {
@@ -94,9 +94,12 @@ body {
   margin-right: 3rem;
 }
 
-.request-demo-container {
-  display: flex;
-  align-items: center;
+.request-demo-button {
+  display: inline-block;
+  width: 21rem;
+  padding: 2rem 0;
+  background-color: #fff;
+  border-radius: 5rem;
 }
 
 /*# sourceMappingURL=app.css.map */

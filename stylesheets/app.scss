@@ -24,7 +24,7 @@ body {
     position: absolute;
     border-radius: 2rem;
     top: auto;
-    bottom: 0;
+    bottom: -1.5rem;
     right: auto;
   }
 
@@ -63,8 +63,7 @@ body {
 }
 
 .site-header {
-  @include flex-centering;
-  padding-top: 2.5rem;
+  @include flex-centering('vertical');
 }
 
 .site-nav {
@@ -88,5 +87,13 @@ body {
 }
 
 .request-demo-container {
-  @include flex-centering('vertical');
+  // @include flex-centering('vertical');
+}
+
+.request-demo-button {
+  display: inline-block;
+  width: 21rem;
+  padding: 2rem 0;
+  background-color: $c-white;
+  border-radius: 5rem;
 }
