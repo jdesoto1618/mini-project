@@ -4,7 +4,8 @@
 
 .feature-cards-container {
   @include desktop__1024 {
-    @include flex-centering;
+    display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
   }
 }
@@ -22,7 +23,9 @@
   }
 
   @include desktop__1024 {
-    width: 45%;
+    width: 32.5%;
+    height: 35.8rem;
+    margin-right: 2rem;
   }
 }
 

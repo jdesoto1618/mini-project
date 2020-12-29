@@ -98,6 +98,7 @@ p {
 @media screen and (min-width: 64em) {
   .feature-cards-container {
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
   }
 }
@@ -117,7 +118,9 @@ p {
 }
 @media screen and (min-width: 64em) {
   .feature-card {
-    width: 45%;
+    width: 32.5%;
+    height: 35.8rem;
+    margin-right: 2rem;
   }
 }
 
