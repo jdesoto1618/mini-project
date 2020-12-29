@@ -40,13 +40,14 @@ body {
 .nav-site-icon-container {
   position: relative;
   width: 5rem;
+  padding-bottom: 4rem;
 }
 .nav-site-icon-container:before, .nav-site-icon-container:after {
   content: "";
   position: absolute;
   border-radius: 2rem;
   top: auto;
-  bottom: -1.5rem;
+  bottom: 0;
   right: auto;
 }
 .nav-site-icon-container:before {
@@ -63,31 +64,33 @@ body {
 }
 
 .main {
-  margin-left: 2.5rem;
+  height: 100vh;
+  padding-left: 2.5rem;
 }
 @media screen and (min-width: 64em) {
   .main {
-    margin-left: 15rem;
+    padding-left: 15rem;
   }
 }
 @media screen and (min-width: 80em) {
   .main {
-    margin-left: 20rem;
+    padding-left: 20rem;
   }
 }
 @media screen and (min-width: 90em) {
   .main {
-    margin-left: 25rem;
+    padding-left: 25rem;
   }
 }
 @media screen and (min-width: 100em) {
   .main {
-    margin-left: 27rem;
+    padding-left: 27rem;
   }
 }
 
 .site-header {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 

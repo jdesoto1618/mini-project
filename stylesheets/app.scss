@@ -19,13 +19,14 @@ body {
 .nav-site-icon-container {
   position: relative;
   width: 5rem;
+  padding-bottom: 4rem;
   &:before,
   &:after {
     content: '';
     position: absolute;
     border-radius: 2rem;
     top: auto;
-    bottom: -1.5rem;
+    bottom: 0;
     right: auto;
   }
 
@@ -45,26 +46,27 @@ body {
 }
 
 .main {
-  margin-left: $small-left-margin;
+  height: 100vh;
+  padding-left: $small-left-margin;
   @include desktop__1024 {
-    margin-left: $large-left-margin;
+    padding-left: $large-left-margin;
   }
 
   @include desktop__1280 {
-    margin-left: $xlarge-left-margin;
+    padding-left: $xlarge-left-margin;
   }
 
   @include desktop__1440 {
-    margin-left: $xxlarge-left-margin;
+    padding-left: $xxlarge-left-margin;
   }
 
   @include desktop__1600 {
-    margin-left: $full-left-margin;
+    padding-left: $full-left-margin;
   }
 }
 
 .site-header {
-  @include flex-centering('vertical');
+  @include flex-centering('both');
 }
 
 .site-nav {
