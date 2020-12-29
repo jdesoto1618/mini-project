@@ -108,10 +108,13 @@ body {
 
 .request-demo-button {
   display: inline-block;
-  width: 21rem;
-  padding: 2rem 0;
+  width: 15rem;
+  padding: 1rem 0;
   background-color: #fff;
   border-radius: 5rem;
+}
+.request-demo-button i {
+  color: #9C69E2;
 }
 
 /*# sourceMappingURL=app.css.map */
