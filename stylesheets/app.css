@@ -103,9 +103,33 @@ p {
   flex-direction: column;
   padding: 0 2rem;
   margin-bottom: 1.5rem;
+  position: relative;
 }
 .feature-card:last-of-type {
   margin-bottom: 0;
+}
+
+.feature-card-image.bg-image {
+  padding-bottom: 0;
+}
+@media screen and (min-width: 64em) {
+  .feature-card-image {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .feature-card-image.bg-image {
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .search-image {
+    background-image: url(../images/image3.png);
+    width: 23.2rem;
+  }
 }
 
 .feature-copy {

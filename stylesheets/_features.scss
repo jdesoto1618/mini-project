@@ -9,8 +9,28 @@
   flex-direction: column;
   padding: 0 2rem;
   margin-bottom: 1.5rem;
+  position: relative;
   &:last-of-type {
     margin-bottom: 0;
+  }
+}
+
+.feature-card-image {
+  &.bg-image {
+    padding-bottom: 0;
+  }
+  @include desktop__1024 {
+    &.bg-image {
+      padding-bottom: 25%;
+    }
+    @include absolute-centering('vertical');
+  }
+}
+
+.search-image {
+  @include desktop__1024 {
+    background-image: url(../images/image3.png);
+    width: 23.2rem;
   }
 }
 
