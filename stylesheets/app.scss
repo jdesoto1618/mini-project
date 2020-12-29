@@ -42,6 +42,25 @@ body {
   }
 }
 
+.main {
+  margin-left: $small-left-margin;
+  @include desktop__1024 {
+    margin-left: $large-left-margin;
+  }
+
+  @include desktop__1280 {
+    margin-left: $xlarge-left-margin;
+  }
+
+  @include desktop__1440 {
+    margin-left: $xxlarge-left-margin;
+  }
+
+  @include desktop__1600 {
+    margin-left: $full-left-margin;
+  }
+}
+
 .site-header {
   @include flex-centering;
 }

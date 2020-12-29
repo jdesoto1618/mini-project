@@ -36,6 +36,30 @@ body {
   background-color: #F063B8;
 }
 
+.main {
+  margin-left: 2.5rem;
+}
+@media screen and (min-width: 64em) {
+  .main {
+    margin-left: 15rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .main {
+    margin-left: 20rem;
+  }
+}
+@media screen and (min-width: 90em) {
+  .main {
+    margin-left: 25rem;
+  }
+}
+@media screen and (min-width: 100em) {
+  .main {
+    margin-left: 27rem;
+  }
+}
+
 .site-header {
   display: flex;
 }
