@@ -47,9 +47,7 @@ body {
 }
 
 .main {
-  height: 100vh;
-  padding-left: $small-gutter;
-  padding-right: $small-gutter;
+  padding: 0 $small-gutter $small-gutter $small-gutter;
   @include desktop__1024 {
     padding-left: $large-gutter;
   }
