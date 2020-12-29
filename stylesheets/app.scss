@@ -67,6 +67,7 @@ body {
 
 .site-header {
   @include flex-centering('both');
+  padding-top: 1rem;
 }
 
 .site-nav {
