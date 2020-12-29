@@ -11,4 +11,33 @@ body {
   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
 }
 
+.nav-site-icon-container {
+  position: relative;
+  width: 5rem;
+}
+.nav-site-icon-container:before, .nav-site-icon-container:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: auto;
+  bottom: 0;
+  right: auto;
+}
+.nav-site-icon-container:before {
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #9C69E2;
+}
+.nav-site-icon-container:after {
+  right: 0;
+  width: 2rem;
+  height: 3.5rem;
+  background-color: #F063B8;
+}
+
+.site-nav ul {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=app.css.map */
