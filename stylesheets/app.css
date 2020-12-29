@@ -13,6 +13,15 @@ button {
   }
 }
 
+.learn-more-button {
+  display: inline-block;
+  color: #212353;
+  background: transparent;
+  border-radius: 5rem;
+  width: 17rem;
+  padding: 1rem 0;
+}
+
 .text-left {
   text-align: left;
 }
@@ -47,6 +56,11 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 50%;
+}
+
+.about-learn-more {
+  color: #fff;
+  background-color: #9C69E2;
 }
 
 html,
