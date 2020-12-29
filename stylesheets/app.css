@@ -18,8 +18,12 @@ button {
   color: #212353;
   background: transparent;
   border-radius: 5rem;
-  width: 17rem;
+  width: 10rem;
   padding: 1rem 0;
+}
+.learn-more-button i {
+  color: #9C69E2;
+  margin-left: 1rem;
 }
 
 .text-left {
