@@ -29,6 +29,7 @@ h2 {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 4.5rem;
+  margin: 1.5rem 0;
 }
 
 p {
@@ -89,6 +90,7 @@ body {
 .main {
   height: 100vh;
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 @media screen and (min-width: 64em) {
   .main {

@@ -48,21 +48,22 @@ body {
 
 .main {
   height: 100vh;
-  padding-left: $small-left-margin;
+  padding-left: $small-gutter;
+  padding-right: $small-gutter;
   @include desktop__1024 {
-    padding-left: $large-left-margin;
+    padding-left: $large-gutter;
   }
 
   @include desktop__1280 {
-    padding-left: $xlarge-left-margin;
+    padding-left: $xlarge-gutter;
   }
 
   @include desktop__1440 {
-    padding-left: $xxlarge-left-margin;
+    padding-left: $xxlarge-gutter;
   }
 
   @include desktop__1600 {
-    padding-left: $full-left-margin;
+    padding-left: $full-gutter;
   }
 }
 
