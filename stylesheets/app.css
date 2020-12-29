@@ -39,11 +39,19 @@ h3 {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   font-size: 4.5rem;
+  color: #212353;
   margin: 1.5rem 0;
 }
 
 h3 {
   font-size: 2.25rem;
+}
+
+h4 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #212353;
 }
 
 p {
@@ -80,6 +88,27 @@ p {
 
 .features-tagline-container {
   margin-bottom: 5rem;
+}
+
+.feature-card {
+  border-radius: 5rem;
+  min-height: 20rem;
+}
+
+.search-card {
+  background-color: rgba(104, 201, 186, 0.1);
+}
+
+.access-card {
+  background-color: rgba(156, 105, 226, 0.1);
+}
+
+.print-card {
+  background-color: rgba(240, 99, 184, 0.1);
+}
+
+.security-card {
+  background-color: rgba(45, 156, 219, 0.1);
 }
 
 html,

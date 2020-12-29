@@ -15,11 +15,19 @@ h3 {
   font-family: $secondary-font;
   font-weight: bold;
   font-size: 4.5rem;
+  color: #212353;
   margin: 1.5rem 0;
 }
 
 h3 {
   font-size: 2.25rem;
+}
+
+h4 {
+  font-family: $primary-font;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #212353;
 }
 
 p {
