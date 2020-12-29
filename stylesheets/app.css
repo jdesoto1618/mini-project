@@ -32,7 +32,7 @@ body {
 .nav-site-icon-container:before, .nav-site-icon-container:after {
   content: "";
   position: absolute;
-  border-radius: 50%;
+  border-radius: 2rem;
   top: auto;
   bottom: 0;
   right: auto;
@@ -76,6 +76,7 @@ body {
 
 .site-header {
   display: flex;
+  padding-top: 2.5rem;
 }
 
 .site-nav {
