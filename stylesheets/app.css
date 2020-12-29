@@ -51,7 +51,7 @@ p {
   margin-top: 5rem;
 }
 
-.about-image {
+.top-about-image {
   background: url(../images/about-image.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -61,6 +61,12 @@ p {
 .about-learn-more {
   color: #fff;
   background-color: #9C69E2;
+}
+
+.bottom-about-section-container {
+  margin-top: 3rem;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 5rem;
 }
 
 html,
@@ -157,6 +163,12 @@ body {
 }
 .request-demo-button i {
   color: #9C69E2;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

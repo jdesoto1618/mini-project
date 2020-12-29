@@ -90,10 +90,6 @@ body {
   }
 }
 
-.request-demo-container {
-  // @include flex-centering('vertical');
-}
-
 .request-demo-button {
   display: inline-block;
   width: 15rem;
@@ -104,4 +100,10 @@ body {
   i {
     color: $c-purple;
   }
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 50%;
 }

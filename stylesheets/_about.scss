@@ -2,7 +2,7 @@
   margin-top: 5rem;
 }
 
-.about-image {
+.top-about-image {
   background: url(../images/about-image.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -12,4 +12,10 @@
 .about-learn-more {
   color: $c-white;
   background-color: $c-purple;
+}
+
+.bottom-about-section-container {
+  margin-top: 3rem;
+  background-color: $light-pink;
+  border-radius: $container-border-radius;
 }
