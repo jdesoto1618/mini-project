@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 50%;
+}
+
 a,
 button {
   font-family: "Noto Sans JP", sans-serif;
@@ -248,9 +254,35 @@ ul {
   }
 }
 
+#home {
+  position: relative;
+}
+
 .top-about-image {
-  background: url(../images/about-image.png);
-  padding-bottom: 50%;
+  background-image: url(../images/about-image.png);
+}
+@media screen and (min-width: 64em) {
+  .top-about-image {
+    padding-bottom: 25%;
+    background-size: contain;
+    position: absolute;
+    width: 55rem;
+    left: auto;
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .about-tagline {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .about-copy {
+    max-width: 37%;
+    margin-bottom: 4rem;
+  }
 }
 
 .about-learn-more {
@@ -673,12 +705,6 @@ section {
   .main {
     padding-left: 27rem;
   }
-}
-
-.bg-image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

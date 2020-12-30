@@ -1,6 +1,30 @@
+#home {
+  position: relative;
+}
+
 .top-about-image {
-  background: url(../images/about-image.png);
-  padding-bottom: 50%;
+  background-image: url(../images/about-image.png);
+  @include desktop__1024 {
+    padding-bottom: 25%;
+    background-size: contain;
+    position: absolute;
+    width: 55rem;
+    left: auto;
+    right: 0;
+  }
+}
+
+.about-tagline {
+  @include desktop__1024 {
+    max-width: 40%;
+  }
+}
+
+.about-copy {
+  @include desktop__1024 {
+    max-width: 37%;
+    margin-bottom: 4rem;
+  }
 }
 
 .about-learn-more {

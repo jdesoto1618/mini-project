@@ -1,4 +1,5 @@
 @import 'mixins';
+@import 'images';
 @import 'variables';
 @import 'fonts';
 @import 'links';
@@ -69,10 +70,4 @@ section {
   @include desktop__1600 {
     padding-left: $full-gutter;
   }
-}
-
-.bg-image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 50%;
 }
