@@ -1,11 +1,18 @@
 .splide__pagination {
   bottom: -2rem;
+  @include desktop__1024 {
+    left: 3.5rem;
+    bottom: -10rem;
+  }
 }
 
 .splide__arrow {
   top: auto;
   bottom: -2.75rem;
   transform: none;
+  @include desktop__1024 {
+    bottom: -11rem;
+  }
 }
 
 .splide__arrow--prev,
@@ -26,6 +33,10 @@
     opacity: 0.5;
     pointer-events: none;
   }
+
+  @include desktop__1024 {
+    left: calc(100% - 9rem);
+  }
 }
 
 .splide__arrow--next {
@@ -42,6 +53,7 @@
   background: $c-white;
   width: 0.5rem;
   height: 0.5rem;
+  margin-right: 0.5rem;
   &.is-active {
     background: $standard-pink;
     opacity: 1;
