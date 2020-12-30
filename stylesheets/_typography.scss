@@ -21,6 +21,9 @@ h3 {
 
 h3 {
   font-size: 2.25rem;
+  @include desktop__1024 {
+    font-size: 4rem;
+  }
 }
 
 h4 {

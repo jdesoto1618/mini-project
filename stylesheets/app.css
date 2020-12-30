@@ -50,6 +50,11 @@ h3 {
 h3 {
   font-size: 2.25rem;
 }
+@media screen and (min-width: 64em) {
+  h3 {
+    font-size: 4rem;
+  }
+}
 
 h4 {
   font-family: "Noto Sans JP", sans-serif;
@@ -208,6 +213,16 @@ p {
 
 .security-card {
   background-color: rgba(45, 156, 219, 0.1);
+}
+
+.testimonials-container {
+  background-color: #9C69E2;
+  border-radius: 5rem;
+}
+
+.testimonials-tagline {
+  color: #fff;
+  padding: 2rem;
 }
 
 html,
