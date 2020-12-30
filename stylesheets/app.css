@@ -394,6 +394,33 @@ p {
   margin-bottom: 0;
 }
 
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  position: relative;
+  display: inline-block;
+  background: rgba(33, 35, 83, 0.1);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+}
+.social-icon:last-of-type {
+  margin-right: 0;
+}
+.social-icon i {
+  color: #212353;
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 html,
 body {
   padding: 0;

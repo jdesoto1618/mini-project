@@ -49,3 +49,25 @@
     }
   }
 }
+
+.social-icons-container {
+  @include flex-centering('horizontal');
+}
+
+.social-icon {
+  position: relative;
+  display: inline-block;
+  background: rgba($active-link-color,0.1);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  i {
+    color: $active-link-color;
+    @include absolute-centering('both');
+  }
+}
