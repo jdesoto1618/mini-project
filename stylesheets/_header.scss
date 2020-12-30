@@ -131,5 +131,11 @@
 
   @include desktop__1024 {
     display: block;
+    margin-left: 7.1rem;
+  }
+
+  @include desktop__1280 {
+    margin-right: 5rem;
+    width: 60%;
   }
 }

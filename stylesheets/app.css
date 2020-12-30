@@ -23,6 +23,7 @@ button {
 }
 .request-demo-button i {
   color: #9C69E2;
+  margin-left: 0.75rem;
 }
 @media screen and (min-width: 64em) {
   .request-demo-button {
@@ -237,6 +238,13 @@ ul {
 @media screen and (min-width: 64em) {
   .site-nav {
     display: block;
+    margin-left: 7.1rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .site-nav {
+    margin-right: 5rem;
+    width: 60%;
   }
 }
 
