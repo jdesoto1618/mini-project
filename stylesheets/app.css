@@ -35,6 +35,27 @@ button {
   .request-demo-button {
     width: 18rem;
     padding: 1.3rem 0;
+    position: relative;
+  }
+  .request-demo-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    background: rgba(221, 221, 221, 0.5);
+    transform-origin: center;
+    transform: scale(0);
+    transition: transform 0.15s linear;
+    z-index: 0;
+  }
+  .request-demo-button:active:after, .request-demo-button:hover:after, .request-demo-button:focus:after {
+    transform: scale(1);
   }
 }
 
@@ -76,7 +97,7 @@ button {
     transform-origin: center;
     transition: transform 0.3s linear;
   }
-  .nav-link:hover:after {
+  .nav-link:active:after, .nav-link:hover:after, .nav-link:focus:after {
     transform: scale(1);
   }
 }

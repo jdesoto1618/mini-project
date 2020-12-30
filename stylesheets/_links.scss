@@ -14,7 +14,7 @@ button {
   width: 15rem;
   padding: 1rem 0;
   background-color: $c-white;
-  border-radius: 5rem;
+  border-radius: $container-border-radius;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   i {
     color: $c-purple;
@@ -24,6 +24,33 @@ button {
   @include desktop__1024 {
     width: 18rem;
     padding: 1.3rem 0;
+    position: relative;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: $container-border-radius;
+      top: 0;
+      bottom: auto;
+      left: 0;
+      right: auto;
+      background: rgba(#ddd, 0.5);
+      transform-origin: center;
+      transform: scale(0);
+      transition: transform 0.15s $animation-ease-function;
+      z-index: 0;
+    }
+
+    &:active,
+    &:hover,
+    &:focus {
+      &:after {
+        transform: scale(1);
+      }
+    }
   }
 }
 
@@ -63,7 +90,9 @@ button {
       transition: transform $animation-duration $animation-ease-function;
     }
 
-    &:hover {
+    &:active,
+    &:hover,
+    &:focus {
       &:after {
         transform: scale(1.0);
       }
