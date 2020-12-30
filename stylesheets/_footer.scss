@@ -1,6 +1,22 @@
 .footer {
   margin-top: 5rem;
   border-top: 0.2rem solid rgba($c-purple,0.2);
+  @include desktop__1024 {
+    margin-top: 15rem;
+  }
+}
+
+.top-footer-row {
+  @include desktop__1024 {
+    position: relative;
+  }
+}
+
+.footer-title {
+  @include desktop__1024 {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .footer-learn-more {
@@ -11,8 +27,21 @@
   }
 }
 
+.footer-taglines-column {
+  @include desktop__1024 {
+    display: inline-block;
+  }
+}
+
 .footer-ctas-column {
   @include flex-centering('horizontal');
+
+  @include desktop__1024 {
+    @include absolute-centering('vertical');
+    top: 70%;
+    left: auto;
+    right: 3rem;
+  }
 }
 
 .bottom-footer-row {
