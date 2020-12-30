@@ -32,6 +32,9 @@
 
 .splide__slide {
   padding: 0 2rem;
+  @include desktop__1024 {
+    margin-right: 10rem;
+  }
 }
 
 .slide-title {
@@ -44,11 +47,15 @@
   padding: 1rem 3rem;
   @include desktop__1024 {
     min-height: 33rem;
-    width: 52.5rem
+    width: 40rem;
   }
 
   @include desktop__1280 {
-    width: 64.5rem
+    width: 52.5rem;
+  }
+
+  @include desktop__1600 {
+    width: 64.5rem;
   }
 }
 

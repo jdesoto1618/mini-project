@@ -538,6 +538,11 @@ ul {
 .splide__slide {
   padding: 0 2rem;
 }
+@media screen and (min-width: 64em) {
+  .splide__slide {
+    margin-right: 10rem;
+  }
+}
 
 .slide-title {
   margin-bottom: 0.5rem;
@@ -551,10 +556,15 @@ ul {
 @media screen and (min-width: 64em) {
   .slide-content {
     min-height: 33rem;
-    width: 52.5rem;
+    width: 40rem;
   }
 }
 @media screen and (min-width: 80em) {
+  .slide-content {
+    width: 52.5rem;
+  }
+}
+@media screen and (min-width: 100em) {
   .slide-content {
     width: 64.5rem;
   }
