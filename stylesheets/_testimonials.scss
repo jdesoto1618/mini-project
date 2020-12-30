@@ -59,7 +59,7 @@
 .slide-avatar-info {
   color: $c-purple;
   cursor: pointer;
-  transition: color $animation-time $animation-ease-function;
+  transition: color $animation-duration $animation-ease-function;
   @include desktop__1024 {
     &:active,
     &:hover,

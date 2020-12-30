@@ -19,18 +19,21 @@
   }
   span {
     display: block;
-    width: 2.5rem;
+    width: 2.25rem;
     height: 0.2rem;
     background-color: $active-link-color;
     margin: 1.4rem auto;
+    opacity: 1;
+    transition: opacity $animation-duration $animation-ease-function;
 
     &:before,
     &:after {
       content: '';
       position: absolute;
-      width: 2.5rem;
+      width: 2.25rem;
       height: 0.2rem;
       background-color: $active-link-color;
+      transition: transform $animation-duration $animation-ease-function;
     }
 
     &:before {
@@ -41,6 +44,21 @@
     &:after {
       top: auto;
       bottom: 0.75rem;
+    }
+  }
+
+  &.menu-opened {
+    span {
+      height: 0;
+      &:before {
+        transform: rotate(-45deg);
+        top: 1.4rem;
+      }
+
+      &:after {
+        transform: rotate(45deg);
+        bottom: 1.4rem;
+      }
     }
   }
 }
