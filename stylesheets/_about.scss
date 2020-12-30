@@ -20,6 +20,12 @@
   }
 }
 
+.about-copy-container {
+  @include desktop__1024 {
+    margin-bottom: 5rem;
+  }
+}
+
 .about-copy {
   @include desktop__1024 {
     max-width: 37%;
@@ -30,20 +36,58 @@
 .about-learn-more {
   color: $c-white;
   background-color: $c-purple;
+  @include desktop__1024 {
+    width: 15rem;
+    padding: 1.3rem 0;
+  }
 }
 
 .bottom-about-section-container {
   margin-top: 3rem;
   background-color: $light-pink;
   border-radius: $container-border-radius;
+  @include desktop__1024 {
+    position: relative;
+    min-height: 50rem;
+  }
+
+  @include desktop__1280 {
+    min-height: 56rem;
+  }
 }
 
 .bottom-about-image {
-  background: url(../images/bottom-about-image.png);
+  background-image: url(../images/bottom-about-image.png);
   background-position: center;
-  padding-bottom: 50%;
+  @include desktop__1024 {
+    position: absolute;
+    top: 1rem;
+    bottom: auto;
+    left: 1rem;
+    right: auto;
+    width: 30rem;
+  }
+}
+
+.bottom-about-copy-container {
+  @include desktop__1024 {
+    max-width: 50%;
+    padding-top: 10rem;
+    margin-left: auto;
+  }
 }
 
 .bottom-about-copy {
   padding: 0 3rem 3rem 3rem;
+  line-height: 2.9rem;
+  @include desktop__1024 {
+    padding-left: 0;
+  }
+}
+
+.bottom-about-tagline {
+  @include desktop__1024 {
+    text-align: left;
+    margin-bottom: 4rem;
+  }
 }

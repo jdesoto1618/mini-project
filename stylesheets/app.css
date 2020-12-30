@@ -279,6 +279,12 @@ ul {
 }
 
 @media screen and (min-width: 64em) {
+  .about-copy-container {
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
   .about-copy {
     max-width: 37%;
     margin-bottom: 4rem;
@@ -289,21 +295,68 @@ ul {
   color: #fff;
   background-color: #9C69E2;
 }
+@media screen and (min-width: 64em) {
+  .about-learn-more {
+    width: 15rem;
+    padding: 1.3rem 0;
+  }
+}
 
 .bottom-about-section-container {
   margin-top: 3rem;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 5rem;
 }
+@media screen and (min-width: 64em) {
+  .bottom-about-section-container {
+    position: relative;
+    min-height: 50rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .bottom-about-section-container {
+    min-height: 56rem;
+  }
+}
 
 .bottom-about-image {
-  background: url(../images/bottom-about-image.png);
+  background-image: url(../images/bottom-about-image.png);
   background-position: center;
-  padding-bottom: 50%;
+}
+@media screen and (min-width: 64em) {
+  .bottom-about-image {
+    position: absolute;
+    top: 1rem;
+    bottom: auto;
+    left: 1rem;
+    right: auto;
+    width: 30rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .bottom-about-copy-container {
+    max-width: 50%;
+    padding-top: 10rem;
+    margin-left: auto;
+  }
 }
 
 .bottom-about-copy {
   padding: 0 3rem 3rem 3rem;
+  line-height: 2.9rem;
+}
+@media screen and (min-width: 64em) {
+  .bottom-about-copy {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .bottom-about-tagline {
+    text-align: left;
+    margin-bottom: 4rem;
+  }
 }
 
 @media screen and (min-width: 64em) {
