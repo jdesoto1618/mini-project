@@ -1,0 +1,10 @@
+.splide__pagination__page {
+  background: $c-white;
+  width: 0.5rem;
+  height: 0.5rem;
+  &.is-active {
+    background: $standard-pink;
+    opacity: 1;
+    transform: scale(2);
+  }
+}

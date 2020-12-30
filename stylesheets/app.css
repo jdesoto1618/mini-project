@@ -289,6 +289,17 @@ p {
   }
 }
 
+.splide__pagination__page {
+  background: #fff;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.splide__pagination__page.is-active {
+  background: #F063B8;
+  opacity: 1;
+  transform: scale(2);
+}
+
 html,
 body {
   padding: 0;
