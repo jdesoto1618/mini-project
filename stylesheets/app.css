@@ -341,6 +341,12 @@ p {
   transform: scale(2);
 }
 
+.footer {
+  margin-top: 5rem;
+  border-top: 0.2rem solid #9C69E2;
+  opacity: 0.2;
+}
+
 html,
 body {
   padding: 0;
