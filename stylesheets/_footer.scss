@@ -14,3 +14,7 @@
 .footer-ctas-column {
   @include flex-centering('horizontal');
 }
+
+.bottom-footer-row {
+  margin-top: 5rem;
+}

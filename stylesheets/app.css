@@ -359,6 +359,10 @@ p {
   justify-content: center;
 }
 
+.bottom-footer-row {
+  margin-top: 5rem;
+}
+
 html,
 body {
   padding: 0;
