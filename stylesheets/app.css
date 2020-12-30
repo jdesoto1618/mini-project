@@ -24,6 +24,12 @@ button {
 .request-demo-button i {
   color: #9C69E2;
 }
+@media screen and (min-width: 64em) {
+  .request-demo-button {
+    width: 18rem;
+    padding: 1.3rem 0;
+  }
+}
 
 .learn-more-button {
   display: inline-block;

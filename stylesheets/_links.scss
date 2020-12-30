@@ -19,6 +19,11 @@ button {
   i {
     color: $c-purple;
   }
+
+  @include desktop__1024 {
+    width: 18rem;
+    padding: 1.3rem 0;
+  }
 }
 
 .learn-more-button {
