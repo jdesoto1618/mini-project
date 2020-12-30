@@ -50,6 +50,12 @@ button {
   color: #9C69E2;
   margin-left: 1rem;
 }
+@media screen and (min-width: 64em) {
+  .learn-more-button {
+    width: 15rem;
+    padding: 1.3rem 0;
+  }
+}
 
 .text-left {
   text-align: left;
@@ -294,12 +300,6 @@ ul {
 .about-learn-more {
   color: #fff;
   background-color: #9C69E2;
-}
-@media screen and (min-width: 64em) {
-  .about-learn-more {
-    width: 15rem;
-    padding: 1.3rem 0;
-  }
 }
 
 .bottom-about-section-container {

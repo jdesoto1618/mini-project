@@ -38,4 +38,8 @@ button {
     color: $c-purple;
     margin-left: 1rem;
   }
+  @include desktop__1024 {
+    width: 15rem;
+    padding: 1.3rem 0;
+  }
 }

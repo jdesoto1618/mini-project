@@ -36,10 +36,6 @@
 .about-learn-more {
   color: $c-white;
   background-color: $c-purple;
-  @include desktop__1024 {
-    width: 15rem;
-    padding: 1.3rem 0;
-  }
 }
 
 .bottom-about-section-container {
