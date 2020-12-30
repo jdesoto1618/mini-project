@@ -366,7 +366,6 @@ ul {
 
 @media screen and (min-width: 64em) {
   #features {
-    margin-left: -4rem;
     margin-top: 15rem;
   }
 }
@@ -374,9 +373,28 @@ ul {
 .features-tagline-container {
   margin-bottom: 5rem;
 }
+@media screen and (min-width: 64em) {
+  .features-tagline-container {
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .features-copy {
+    width: 52.5rem;
+    margin: 0 auto;
+  }
+}
+
+.feature-copy {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 @media screen and (min-width: 64em) {
   .feature-cards-container {
+    margin-left: -4rem;
     display: flex;
     flex-wrap: wrap;
   }
@@ -461,11 +479,6 @@ ul {
   .security-image {
     background-image: url(../images/image6.png);
   }
-}
-
-.feature-copy {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .search-card {
