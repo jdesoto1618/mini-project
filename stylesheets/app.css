@@ -333,6 +333,11 @@ ul {
     width: 30rem;
   }
 }
+@media screen and (min-width: 80em) {
+  .bottom-about-image {
+    width: 35rem;
+  }
+}
 
 @media screen and (min-width: 64em) {
   .bottom-about-copy-container {
@@ -362,6 +367,7 @@ ul {
 @media screen and (min-width: 64em) {
   #features {
     margin-left: -4rem;
+    margin-top: 15rem;
   }
 }
 

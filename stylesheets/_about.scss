@@ -67,6 +67,10 @@
     right: auto;
     width: 30rem;
   }
+
+  @include desktop__1280 {
+    width: 35rem;
+  }
 }
 
 .bottom-about-copy-container {
