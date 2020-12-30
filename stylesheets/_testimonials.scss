@@ -10,7 +10,7 @@
   position: relative;
   &:before {
     content: '';
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     bottom: auto;
@@ -24,6 +24,9 @@
   }
   @include desktop__1024 {
     min-height: 70.9rem;
+    &:before {
+      display: block;
+    }
   }
 }
 
@@ -49,6 +52,11 @@
   padding: 0 2rem;
   @include desktop__1024 {
     margin-right: 10rem;
+  }
+
+  @include desktop__1280 {
+    margin-right: 11rem;
+    padding: 0;
   }
 }
 
@@ -104,6 +112,10 @@
     left: 4rem;
     right: auto;
   }
+
+  @include desktop__1280 {
+    left: 3rem;
+  }
 }
 
 .avatar-1 {
@@ -114,10 +126,17 @@
   @include desktop__1024 {
     top: 8rem;
   }
+
+  @include desktop__1280 {
+    top: 9.5rem;
+  }
 }
 
 .avatar-2 {
   background-image: url(../images/ellipse-76.png);
+  @include desktop__1280 {
+    top: 8.5rem;
+  }
 }
 
 .avatar-3 {
@@ -125,11 +144,14 @@
   @include desktop__1024 {
     top: 6.5rem;
   }
+
+  @include desktop__1280 {
+    top: 10rem;
+  }
 }
 
 .slide-avatar-info {
   color: $c-purple;
-  cursor: pointer;
   transition: color $animation-duration $animation-ease-function;
   @include desktop__1024 {
     padding-left: 5rem;

@@ -510,7 +510,7 @@ ul {
 }
 .testimonials-container:before {
   content: "";
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   bottom: auto;
@@ -525,6 +525,9 @@ ul {
 @media screen and (min-width: 64em) {
   .testimonials-container {
     min-height: 70.9rem;
+  }
+  .testimonials-container:before {
+    display: block;
   }
 }
 
@@ -556,6 +559,12 @@ ul {
 @media screen and (min-width: 64em) {
   .splide__slide {
     margin-right: 10rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .splide__slide {
+    margin-right: 11rem;
+    padding: 0;
   }
 }
 
@@ -622,6 +631,11 @@ ul {
     right: auto;
   }
 }
+@media screen and (min-width: 80em) {
+  .slide-avatar {
+    left: 3rem;
+  }
+}
 
 .avatar-1 {
   background-image: url(../images/j_wick.png);
@@ -634,9 +648,19 @@ ul {
     top: 8rem;
   }
 }
+@media screen and (min-width: 80em) {
+  .avatar-1 {
+    top: 9.5rem;
+  }
+}
 
 .avatar-2 {
   background-image: url(../images/ellipse-76.png);
+}
+@media screen and (min-width: 80em) {
+  .avatar-2 {
+    top: 8.5rem;
+  }
 }
 
 .avatar-3 {
@@ -647,10 +671,14 @@ ul {
     top: 6.5rem;
   }
 }
+@media screen and (min-width: 80em) {
+  .avatar-3 {
+    top: 10rem;
+  }
+}
 
 .slide-avatar-info {
   color: #9C69E2;
-  cursor: pointer;
   transition: color 0.3s linear;
 }
 @media screen and (min-width: 64em) {
