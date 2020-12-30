@@ -22,6 +22,18 @@
   }
 }
 
+.street-address,
+.contact-info {
+  line-height: 2.88rem;
+}
+
+.address-line-1,
+.address-line-2,
+.email,
+.phone {
+  display: block;
+}
+
 .about-title,
 .help-title,
 .social-title {
