@@ -778,6 +778,7 @@ ul {
 @media screen and (min-width: 64em) {
   .footer {
     margin-top: 15rem;
+    margin-bottom: 6.4rem;
   }
   .footer:before {
     left: -15rem;
@@ -868,10 +869,20 @@ ul {
 }
 .bottom-footer-row .company-name {
   margin-left: 7rem;
+  font-weight: bold;
 }
 @media screen and (min-width: 64em) {
   .bottom-footer-row {
     margin-top: 10rem;
+    margin-left: -8rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .bottom-footer-row .column:not(:first-child) {
+    margin-top: 0.8rem;
+  }
+  .bottom-footer-row .column:not(:first-child) h5 {
+    margin-bottom: 3rem;
   }
 }
 
@@ -891,6 +902,7 @@ ul {
 .help-title,
 .social-title {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .listed-links {
@@ -907,6 +919,11 @@ ul {
 }
 .listed-links li:last-of-type a {
   margin-bottom: 0;
+}
+@media screen and (min-width: 64em) {
+  .listed-links {
+    padding-left: 0;
+  }
 }
 
 .social-icons-container {
