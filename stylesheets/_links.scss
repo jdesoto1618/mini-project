@@ -9,6 +9,18 @@ button {
   }
 }
 
+.request-demo-button {
+  display: inline-block;
+  width: 15rem;
+  padding: 1rem 0;
+  background-color: $c-white;
+  border-radius: 5rem;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  i {
+    color: $c-purple;
+  }
+}
+
 .learn-more-button {
   display: inline-block;
   color: $learn-more-link-color;

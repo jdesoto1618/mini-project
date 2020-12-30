@@ -1,0 +1,24 @@
+.site-header {
+  @include flex-centering('both');
+  padding-top: 1rem;
+}
+
+.site-nav {
+  width: 70%;
+  ul {
+    @include flex-centering;
+    list-style-type: none;
+    padding-left: 5rem;
+    li {
+      &:first-of-type {
+        a {
+          color: $active-link-color;
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    margin-right: 3rem;
+  }
+}

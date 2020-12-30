@@ -3,6 +3,7 @@
 @import 'fonts';
 @import 'links';
 @import 'typography';
+@import 'header';
 @import 'about';
 @import 'features';
 @import 'testimonials';
@@ -67,43 +68,6 @@ section {
 
   @include desktop__1600 {
     padding-left: $full-gutter;
-  }
-}
-
-.site-header {
-  @include flex-centering('both');
-  padding-top: 1rem;
-}
-
-.site-nav {
-  width: 70%;
-  ul {
-    @include flex-centering;
-    list-style-type: none;
-    padding-left: 5rem;
-    li {
-      &:first-of-type {
-        a {
-          color: $active-link-color;
-        }
-      }
-    }
-  }
-
-  .nav-link {
-    margin-right: 3rem;
-  }
-}
-
-.request-demo-button {
-  display: inline-block;
-  width: 15rem;
-  padding: 1rem 0;
-  background-color: $c-white;
-  border-radius: 5rem;
-  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
-  i {
-    color: $c-purple;
   }
 }
 
