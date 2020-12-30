@@ -69,6 +69,12 @@ span {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+h5 {
+  font-size: 1.5rem;
+  color: #212353;
+  font-weight: normal;
+}
+
 p {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: normal;
@@ -361,6 +367,15 @@ p {
 
 .bottom-footer-row {
   margin-top: 5rem;
+}
+.bottom-footer-row span {
+  font-size: 1.5rem;
+}
+
+.about-title,
+.help-title,
+.social-title {
+  font-size: 1.25rem;
 }
 
 html,
