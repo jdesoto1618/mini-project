@@ -371,6 +371,18 @@ p {
 .bottom-footer-row span {
   font-size: 1.25rem;
 }
+.bottom-footer-row .company-logo-container {
+  position: relative;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.bottom-footer-row .company-logo {
+  position: absolute;
+}
+.bottom-footer-row .company-name {
+  margin-left: 6rem;
+}
 
 .street-address,
 .contact-info {
@@ -449,12 +461,12 @@ section {
   margin-top: 5rem;
 }
 
-.nav-site-icon-container {
+.company-logo {
   position: relative;
   width: 5rem;
   padding-bottom: 4rem;
 }
-.nav-site-icon-container:before, .nav-site-icon-container:after {
+.company-logo:before, .company-logo:after {
   content: "";
   position: absolute;
   border-radius: 2rem;
@@ -462,13 +474,13 @@ section {
   bottom: 0;
   right: auto;
 }
-.nav-site-icon-container:before {
+.company-logo:before {
   left: 0;
   width: 2rem;
   height: 2rem;
   background-color: #9C69E2;
 }
-.nav-site-icon-container:after {
+.company-logo:after {
   right: 0;
   width: 2rem;
   height: 3.5rem;

@@ -20,6 +20,20 @@
   span {
     font-size: 1.25rem;
   }
+
+  .company-logo-container {
+    position: relative;
+    min-height: 4rem;
+    @include flex-centering('vertical');
+  }
+
+  .company-logo {
+    position: absolute;
+  }
+
+  .company-name {
+    margin-left: 6rem;
+  }
 }
 
 .street-address,
