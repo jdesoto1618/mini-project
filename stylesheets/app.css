@@ -369,13 +369,27 @@ p {
   margin-top: 5rem;
 }
 .bottom-footer-row span {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .about-title,
 .help-title,
 .social-title {
   font-size: 1.25rem;
+}
+
+.about-links-container {
+  list-style-type: none;
+}
+.about-links-container a {
+  display: inline-block;
+  margin: 1rem 0;
+}
+.about-links-container li:first-of-type a {
+  margin-top: 0;
+}
+.about-links-container li:last-of-type a {
+  margin-bottom: 0;
 }
 
 html,
