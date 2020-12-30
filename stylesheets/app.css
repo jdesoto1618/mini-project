@@ -761,17 +761,51 @@ ul {
 
 .footer {
   margin-top: 5rem;
-  border-top: 0.2rem solid rgba(156, 105, 226, 0.2);
+  position: relative;
+}
+.footer:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: -2.5rem;
+  right: auto;
+  width: 100vw;
+  height: 0.2rem;
+  background: rgba(156, 105, 226, 0.2);
 }
 @media screen and (min-width: 64em) {
   .footer {
     margin-top: 15rem;
   }
+  .footer:before {
+    left: -15rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .footer:before {
+    left: -20rem;
+  }
+}
+@media screen and (min-width: 90em) {
+  .footer:before {
+    left: -25rem;
+  }
+}
+@media screen and (min-width: 100em) {
+  .footer:before {
+    left: -27rem;
+  }
 }
 
+.top-footer-row {
+  padding-top: 2.5rem;
+}
 @media screen and (min-width: 64em) {
   .top-footer-row {
     position: relative;
+    padding-top: 0;
   }
 }
 
@@ -790,9 +824,13 @@ ul {
   margin-right: 2rem;
 }
 
+.footer-taglines-column {
+  text-align: center;
+}
 @media screen and (min-width: 64em) {
   .footer-taglines-column {
     display: inline-block;
+    text-align: left;
   }
 }
 
@@ -829,7 +867,12 @@ ul {
   position: absolute;
 }
 .bottom-footer-row .company-name {
-  margin-left: 6rem;
+  margin-left: 7rem;
+}
+@media screen and (min-width: 64em) {
+  .bottom-footer-row {
+    margin-top: 10rem;
+  }
 }
 
 .street-address,

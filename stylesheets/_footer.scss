@@ -1,14 +1,50 @@
 .footer {
   margin-top: 5rem;
-  border-top: 0.2rem solid rgba($c-purple,0.2);
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: -2.5rem;
+    right: auto;
+    width: 100vw;
+    height: 0.2rem;
+    background: rgba($c-purple,0.2);
+  }
   @include desktop__1024 {
     margin-top: 15rem;
+    &:before {
+      left: -($large-gutter);
+    }
+  }
+
+  @include desktop__1280 {
+    &:before {
+      left: -($xlarge-gutter);
+    }
+  }
+
+  @include desktop__1440 {
+    &:before {
+      left: -($xxlarge-gutter);
+    }
+  }
+
+  @include desktop__1600 {
+    &:before {
+      left: -($full-gutter);
+    }
   }
 }
 
 .top-footer-row {
+  padding-top: 2.5rem;
   @include desktop__1024 {
     position: relative;
+    padding-top: 0;
   }
 }
 
@@ -28,8 +64,10 @@
 }
 
 .footer-taglines-column {
+  text-align: center;
   @include desktop__1024 {
     display: inline-block;
+    text-align: left;
   }
 }
 
@@ -61,7 +99,11 @@
   }
 
   .company-name {
-    margin-left: 6rem;
+    margin-left: 7rem;
+  }
+
+  @include desktop__1024 {
+    margin-top: 10rem;
   }
 }
 
