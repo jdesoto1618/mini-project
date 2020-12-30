@@ -2,6 +2,13 @@
   @include flex-centering('both');
   padding-top: 1rem;
   position: relative;
+
+  .request-demo-container {
+    display: none;
+    @include desktop__1024 {
+      display: block;
+    }
+  }
 }
 
 .mobile-menu-toggle {
@@ -14,6 +21,7 @@
   bottom: auto;
   left: auto;
   right: 0;
+  z-index: 100;
   @include desktop__1024 {
     display: none;
   }
@@ -61,6 +69,36 @@
       }
     }
   }
+}
+
+.mobile-menu-drawer {
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: auto;
+  right: -2.5rem;
+  width: 20rem;
+  height: 100vh;
+  padding-top: 5rem;
+  background: $inactive-link-color;
+  transform: translateX(100%);
+  transition: transform $animation-duration $animation-ease-function;
+
+  &.drawer-opened {
+    transform: translateX(0);
+    .request-demo-container {
+      display: block;
+      @include desktop__1024 {
+        display: none;
+      }
+    }
+  }
+}
+
+.mobile-nav-link {
+  display: inline-block;
+  margin: 1rem 0;
+  color: $c-white;
 }
 
 .site-nav {
