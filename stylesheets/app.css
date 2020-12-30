@@ -547,16 +547,25 @@ ul {
 .slide-title {
   margin-bottom: 0.5rem;
 }
+@media screen and (min-width: 64em) {
+  .slide-title {
+    padding-left: 5rem;
+  }
+}
 
 .slide-content {
   background-color: #fff;
   border-radius: 2rem;
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media screen and (min-width: 64em) {
   .slide-content {
     min-height: 33rem;
     width: 40rem;
+    padding: 1rem 2rem 1rem 4rem;
   }
 }
 @media screen and (min-width: 80em) {
@@ -567,6 +576,15 @@ ul {
 @media screen and (min-width: 100em) {
   .slide-content {
     width: 64.5rem;
+  }
+}
+
+.slide-copy {
+  line-height: 3.2rem;
+}
+@media screen and (min-width: 64em) {
+  .slide-copy {
+    padding-left: 5rem;
   }
 }
 
@@ -582,12 +600,24 @@ ul {
   left: auto;
   right: 5rem;
 }
+@media screen and (min-width: 64em) {
+  .slide-avatar {
+    top: 5rem;
+    left: 4rem;
+    right: auto;
+  }
+}
 
 .avatar-1 {
   background-image: url(../images/j_wick.png);
   padding-bottom: 0;
   width: 4.6rem;
   height: 4.6rem;
+}
+@media screen and (min-width: 64em) {
+  .avatar-1 {
+    top: 8rem;
+  }
 }
 
 .avatar-2 {
@@ -597,6 +627,11 @@ ul {
 .avatar-3 {
   background-image: url(../images/tng-data-pipe.png);
 }
+@media screen and (min-width: 64em) {
+  .avatar-3 {
+    top: 6.5rem;
+  }
+}
 
 .slide-avatar-info {
   color: #9C69E2;
@@ -604,6 +639,9 @@ ul {
   transition: color 0.3s linear;
 }
 @media screen and (min-width: 64em) {
+  .slide-avatar-info {
+    padding-left: 5rem;
+  }
   .slide-avatar-info:active, .slide-avatar-info:hover, .slide-avatar-info:focus {
     color: #212353;
   }

@@ -39,15 +39,22 @@
 
 .slide-title {
   margin-bottom: 0.5rem;
+  @include desktop__1024 {
+    padding-left: 5rem;
+  }
 }
 
 .slide-content {
   background-color: $c-white;
   border-radius: 2rem;
   padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   @include desktop__1024 {
     min-height: 33rem;
     width: 40rem;
+    padding: 1rem 2rem 1rem 4rem;
   }
 
   @include desktop__1280 {
@@ -56,6 +63,13 @@
 
   @include desktop__1600 {
     width: 64.5rem;
+  }
+}
+
+.slide-copy {
+  line-height: 3.2rem;
+  @include desktop__1024 {
+    padding-left: 5rem;
   }
 }
 
@@ -70,6 +84,11 @@
   bottom: auto;
   left: auto;
   right: 5rem;
+  @include desktop__1024 {
+    top: 5rem;
+    left: 4rem;
+    right: auto;
+  }
 }
 
 .avatar-1 {
@@ -77,6 +96,9 @@
   padding-bottom: 0;
   width: 4.6rem;
   height: 4.6rem;
+  @include desktop__1024 {
+    top: 8rem;
+  }
 }
 
 .avatar-2 {
@@ -85,6 +107,9 @@
 
 .avatar-3 {
   background-image: url(../images/tng-data-pipe.png);
+  @include desktop__1024 {
+    top: 6.5rem;
+  }
 }
 
 .slide-avatar-info {
@@ -92,6 +117,7 @@
   cursor: pointer;
   transition: color $animation-duration $animation-ease-function;
   @include desktop__1024 {
+    padding-left: 5rem;
     &:active,
     &:hover,
     &:focus {
