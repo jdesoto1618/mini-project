@@ -57,6 +57,30 @@ button {
   }
 }
 
+@media screen and (min-width: 64em) {
+  .nav-link {
+    position: relative;
+  }
+  .nav-link:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.2rem;
+    top: auto;
+    bottom: -0.5rem;
+    left: auto;
+    right: auto;
+    background: #212353;
+    transform: scale(0);
+    transform-origin: center;
+    transition: transform 0.3s linear;
+  }
+  .nav-link:hover:after {
+    transform: scale(1);
+  }
+}
+
 .text-left {
   text-align: left;
 }
