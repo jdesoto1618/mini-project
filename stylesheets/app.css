@@ -506,6 +506,21 @@ ul {
   border-radius: 5rem;
   min-height: 40rem;
   padding-bottom: 5rem;
+  position: relative;
+}
+.testimonials-container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: auto;
+  right: 0;
+  width: 20rem;
+  height: 85%;
+  border-top-right-radius: 5rem;
+  background: linear-gradient(0.25turn, transparent, #9C69E2);
+  z-index: 10;
 }
 @media screen and (min-width: 64em) {
   .testimonials-container {

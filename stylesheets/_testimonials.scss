@@ -7,6 +7,21 @@
   border-radius: $container-border-radius;
   min-height: 40rem;
   padding-bottom: 5rem;
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    right: 0;
+    width: 20rem;
+    height: 85%;
+    border-top-right-radius: $container-border-radius;
+    background: linear-gradient(0.25turn, transparent, $c-purple);
+    z-index: 10;
+  }
   @include desktop__1024 {
     min-height: 70.9rem;
   }
