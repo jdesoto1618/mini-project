@@ -235,6 +235,7 @@ p {
   background-color: #9C69E2;
   border-radius: 5rem;
   min-height: 40rem;
+  padding-bottom: 5rem;
 }
 
 .testimonials-tagline {
@@ -250,9 +251,13 @@ p {
   padding: 0 2rem;
 }
 
+.slide-title {
+  margin-bottom: 0.5rem;
+}
+
 .slide-content {
   background-color: #fff;
-  border-radius: 5rem;
+  border-radius: 2rem;
   padding: 1rem 3rem;
 }
 
@@ -263,7 +268,7 @@ p {
   width: 4.6rem;
   height: 4.6rem;
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   bottom: auto;
   left: auto;
   right: 5rem;
@@ -296,12 +301,12 @@ p {
 }
 
 .splide__pagination {
-  bottom: -3.2rem;
+  bottom: -2rem;
 }
 
 .splide__arrow {
   top: auto;
-  bottom: -4rem;
+  bottom: -2.75rem;
   transform: none;
 }
 
