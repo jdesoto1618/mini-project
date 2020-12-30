@@ -345,6 +345,15 @@ ul {
 .about-learn-more {
   color: #fff;
   background-color: #9C69E2;
+  border: 0.1rem solid transparent;
+  transition: color 0.3s linear, background-color 0.3s linear, border 0.3s linear;
+}
+@media screen and (min-width: 64em) {
+  .about-learn-more:active, .about-learn-more:hover, .about-learn-more:focus {
+    color: #9C69E2;
+    background-color: #fff;
+    border: 0.1rem solid #9C69E2;
+  }
 }
 
 .bottom-about-section-container {
@@ -865,9 +874,18 @@ ul {
 .footer-learn-more {
   color: #fff;
   background-color: #F063B8;
+  border: 0.1rem solid transparent;
+  transition: color 0.3s linear, background-color 0.3s linear, border 0.3s linear;
 }
 .footer-learn-more:first-of-type {
   margin-right: 2rem;
+}
+@media screen and (min-width: 64em) {
+  .footer-learn-more:active, .footer-learn-more:hover, .footer-learn-more:focus {
+    color: #F063B8;
+    background-color: #fff;
+    border: 0.1rem solid #F063B8;
+  }
 }
 
 .footer-taglines-column {

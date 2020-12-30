@@ -59,8 +59,21 @@
 .footer-learn-more {
   color: $c-white;
   background-color: $standard-pink;
+  border: 0.1rem solid transparent;
   &:first-of-type {
     margin-right: 2rem;
+  }
+
+  transition: color $animation-duration $animation-ease-function, background-color $animation-duration $animation-ease-function, border $animation-duration $animation-ease-function;
+
+  @include desktop__1024 {
+    &:active,
+    &:hover,
+    &:focus {
+      color: $standard-pink;
+      background-color: $c-white;
+      border: 0.1rem solid $standard-pink;
+    }
   }
 }
 

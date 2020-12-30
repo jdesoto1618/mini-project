@@ -36,6 +36,18 @@
 .about-learn-more {
   color: $c-white;
   background-color: $c-purple;
+  border: 0.1rem solid transparent;
+  transition: color $animation-duration $animation-ease-function, background-color $animation-duration $animation-ease-function, border $animation-duration $animation-ease-function;
+
+  @include desktop__1024 {
+    &:active,
+    &:hover,
+    &:focus {
+      color: $c-purple;
+      background-color: $c-white;
+      border: 0.1rem solid $c-purple;
+    }
+  }
 }
 
 .bottom-about-section-container {
