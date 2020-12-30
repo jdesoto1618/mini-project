@@ -1,5 +1,16 @@
 .footer {
   margin-top: 5rem;
-  border-top: 0.2rem solid $c-purple;
-  opacity: 0.2;
+  border-top: 0.2rem solid rgba($c-purple,0.2);
+}
+
+.footer-learn-more {
+  color: $c-white;
+  background-color: $standard-pink;
+  &:first-of-type {
+    margin-right: 2rem;
+  }
+}
+
+.footer-ctas-column {
+  @include flex-centering('horizontal');
 }

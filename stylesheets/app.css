@@ -18,7 +18,7 @@ button {
   color: #212353;
   background: transparent;
   border-radius: 5rem;
-  width: 10rem;
+  width: 12rem;
   padding: 1rem 0;
 }
 .learn-more-button i {
@@ -343,8 +343,20 @@ p {
 
 .footer {
   margin-top: 5rem;
-  border-top: 0.2rem solid #9C69E2;
-  opacity: 0.2;
+  border-top: 0.2rem solid rgba(156, 105, 226, 0.2);
+}
+
+.footer-learn-more {
+  color: #fff;
+  background-color: #F063B8;
+}
+.footer-learn-more:first-of-type {
+  margin-right: 2rem;
+}
+
+.footer-ctas-column {
+  display: flex;
+  justify-content: center;
 }
 
 html,
