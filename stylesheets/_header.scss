@@ -9,6 +9,10 @@
       display: block;
     }
   }
+
+  @include desktop__1024 {
+    padding-top: 4rem;
+  }
 }
 
 .mobile-menu-toggle {
@@ -92,6 +96,10 @@
         display: none;
       }
     }
+  }
+
+  @include desktop__1024 {
+    display: none;
   }
 }
 

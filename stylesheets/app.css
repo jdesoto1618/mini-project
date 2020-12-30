@@ -117,6 +117,11 @@ ul {
     display: block;
   }
 }
+@media screen and (min-width: 64em) {
+  .site-header {
+    padding-top: 4rem;
+  }
+}
 
 .mobile-menu-toggle {
   width: 4rem;
@@ -193,6 +198,11 @@ ul {
 }
 @media screen and (min-width: 64em) {
   .mobile-menu-drawer.drawer-opened .request-demo-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 64em) {
+  .mobile-menu-drawer {
     display: none;
   }
 }
