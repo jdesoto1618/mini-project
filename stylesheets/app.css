@@ -378,17 +378,19 @@ p {
   font-size: 1.25rem;
 }
 
-.about-links-container {
+.listed-links {
   list-style-type: none;
+  padding-left: 1.5rem;
 }
-.about-links-container a {
+.listed-links a {
   display: inline-block;
   margin: 1rem 0;
+  font-size: 1.25rem;
 }
-.about-links-container li:first-of-type a {
+.listed-links li:first-of-type a {
   margin-top: 0;
 }
-.about-links-container li:last-of-type a {
+.listed-links li:last-of-type a {
   margin-bottom: 0;
 }
 

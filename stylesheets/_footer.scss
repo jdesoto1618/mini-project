@@ -28,11 +28,13 @@
   font-size: 1.25rem;
 }
 
-.about-links-container {
+.listed-links {
   list-style-type: none;
+  padding-left: 1.5rem;
   a {
     display: inline-block;
     margin: 1rem 0;
+    font-size: 1.25rem;
   }
   li {
     &:first-of-type {
