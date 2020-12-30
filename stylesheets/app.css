@@ -72,7 +72,12 @@ span {
 p {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 64em) {
+  p {
+    font-size: 1.6rem;
+  }
 }
 
 .top-about-image {
@@ -248,24 +253,29 @@ p {
 .slide-avatar {
   background-size: cover;
   background-position: center;
-  padding-bottom: 25%;
   border-radius: 50%;
-  width: 7.5rem;
-  height: auto;
+  width: 4.6rem;
+  height: 4.6rem;
+  position: absolute;
+  top: 1rem;
+  bottom: auto;
+  left: auto;
+  right: 5rem;
 }
 
 .avatar-1 {
   background-image: url(../images/j_wick.png);
+  padding-bottom: 0;
+  width: 4.6rem;
+  height: 4.6rem;
 }
 
 .avatar-2 {
   background-image: url(../images/ellipse-76.png);
-  width: 6.2rem;
 }
 
 .avatar-3 {
   background-image: url(../images/tng-data-pipe.png);
-  width: 6.2rem;
 }
 
 .slide-avatar-info {

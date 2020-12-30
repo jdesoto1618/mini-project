@@ -42,5 +42,8 @@ span {
 p {
   font-family: $primary-font;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  @include desktop__1024 {
+    font-size: 1.6rem;
+  }
 }
