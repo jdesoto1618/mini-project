@@ -17,10 +17,6 @@ body {
   font-size: 62.5%;
 }
 
-.main {
-  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-}
-
 section {
   margin-top: $section-separator;
 }
@@ -55,6 +51,7 @@ section {
 }
 
 .main {
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
   padding: 0 $small-gutter $small-gutter $small-gutter;
   @include desktop__1024 {
     padding-left: $large-gutter;

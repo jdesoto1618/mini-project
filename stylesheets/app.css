@@ -458,10 +458,6 @@ body {
   font-size: 62.5%;
 }
 
-.main {
-  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
-}
-
 section {
   margin-top: 5rem;
 }
@@ -493,6 +489,7 @@ section {
 }
 
 .main {
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
   padding: 0 2.5rem 2.5rem 2.5rem;
 }
 @media screen and (min-width: 64em) {
