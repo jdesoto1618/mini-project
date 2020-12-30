@@ -1,9 +1,60 @@
 .testimonials-container {
   background-color: $c-purple;
   border-radius: $container-border-radius;
+  min-height: 40rem;
 }
 
 .testimonials-tagline {
   color: $c-white;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem;
+}
+
+.testimonials-carousel {
+  position: relative;
+}
+
+.splide__slide {
+  padding: 0 2rem;
+}
+
+.slide-content {
+  background-color: $c-white;
+  border-radius: $container-border-radius;
+  padding: 1rem 3rem;
+}
+
+.slide-avatar {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 25%;
+  border-radius: 50%;
+  width: 7.5rem;
+  height: auto;
+}
+
+.avatar-1 {
+  background-image: url(../images/j_wick.png);
+}
+
+.avatar-2 {
+  background-image: url(../images/ellipse-76.png);
+  width: 6.2rem;
+}
+
+.avatar-3 {
+  background-image: url(../images/tng-data-pipe.png);
+  width: 6.2rem;
+}
+
+.slide-avatar-info {
+  color: $c-purple;
+  cursor: pointer;
+  transition: color $animation-time $animation-ease-function;
+  @include desktop__1024 {
+    &:active,
+    &:hover,
+    &:focus {
+      color: $active-link-color;
+    }
+  }
 }

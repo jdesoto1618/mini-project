@@ -34,6 +34,11 @@ h4 {
   margin: 1.5rem 0;
 }
 
+h5,
+span {
+  font-family: $primary-font;
+}
+
 p {
   font-family: $primary-font;
   font-weight: normal;

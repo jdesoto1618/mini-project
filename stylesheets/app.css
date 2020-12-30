@@ -64,6 +64,11 @@ h4 {
   margin: 1.5rem 0;
 }
 
+h5,
+span {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 p {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: normal;
@@ -218,11 +223,60 @@ p {
 .testimonials-container {
   background-color: #9C69E2;
   border-radius: 5rem;
+  min-height: 40rem;
 }
 
 .testimonials-tagline {
   color: #fff;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem;
+}
+
+.testimonials-carousel {
+  position: relative;
+}
+
+.splide__slide {
+  padding: 0 2rem;
+}
+
+.slide-content {
+  background-color: #fff;
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+}
+
+.slide-avatar {
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 25%;
+  border-radius: 50%;
+  width: 7.5rem;
+  height: auto;
+}
+
+.avatar-1 {
+  background-image: url(../images/j_wick.png);
+}
+
+.avatar-2 {
+  background-image: url(../images/ellipse-76.png);
+  width: 6.2rem;
+}
+
+.avatar-3 {
+  background-image: url(../images/tng-data-pipe.png);
+  width: 6.2rem;
+}
+
+.slide-avatar-info {
+  color: #9C69E2;
+  cursor: pointer;
+  transition: color 0.3s linear;
+}
+@media screen and (min-width: 64em) {
+  .slide-avatar-info:active, .slide-avatar-info:hover, .slide-avatar-info:focus {
+    color: #212353;
+  }
 }
 
 html,
