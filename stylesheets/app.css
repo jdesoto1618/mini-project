@@ -432,6 +432,7 @@ ul {
 @media screen and (min-width: 64em) {
   #features {
     margin-top: 15rem;
+    max-width: 111.8rem;
   }
 }
 
@@ -459,6 +460,8 @@ ul {
 @media screen and (min-width: 64em) {
   .feature-copy {
     z-index: 10;
+    max-width: 22rem;
+    margin-left: 10rem;
   }
 }
 
@@ -486,8 +489,10 @@ ul {
 @media screen and (min-width: 64em) {
   .feature-card {
     width: 35%;
+    max-width: 44.2rem;
     height: 35.8rem;
     margin-right: 2rem;
+    margin-bottom: 5rem;
   }
   .feature-card:before {
     content: "";
@@ -506,6 +511,7 @@ ul {
   }
   .feature-card .learn-more-button {
     width: 12.5rem;
+    margin-left: 10rem;
   }
 }
 
@@ -523,8 +529,15 @@ ul {
   }
   .feature-card-image.bg-image {
     padding-bottom: 25%;
-    left: -7.5rem;
+    left: -4rem;
     width: 23.2rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .card-tagline {
+    max-width: 22rem;
+    margin-left: 10rem;
   }
 }
 

@@ -1,6 +1,7 @@
 #features {
   @include desktop__1024 {
     margin-top: 15rem;
+    max-width: 111.8rem;
   }
 }
 
@@ -25,6 +26,8 @@
 
   @include desktop__1024 {
     z-index: 10;
+    max-width: 22rem;
+    margin-left: 10rem;
   }
 }
 
@@ -50,8 +53,10 @@
 
   @include desktop__1024 {
     width: 35%;
+    max-width: 44.2rem;
     height: 35.8rem;
     margin-right: 2rem;
+    margin-bottom: 5rem;
 
     &:before {
       content: '';
@@ -72,6 +77,7 @@
 
     .learn-more-button {
       width: 12.5rem;
+      margin-left: 10rem;
     }
   }
 }
@@ -84,10 +90,17 @@
   @include desktop__1024 {
     &.bg-image {
       padding-bottom: 25%;
-      left: -7.5rem;
+      left: -4rem;
       width: 23.2rem;
     }
     @include absolute-centering('vertical');
+  }
+}
+
+.card-tagline {
+  @include desktop__1024 {
+    max-width: 22rem;
+    margin-left: 10rem;
   }
 }
 
