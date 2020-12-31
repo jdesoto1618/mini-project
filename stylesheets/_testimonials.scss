@@ -1,5 +1,9 @@
 #testimonials {
-  margin-top: 15rem;
+  margin-top: 5rem;
+
+  @include desktop__1024 {
+    margin-top: 15rem;
+  }
 }
 
 .testimonials-container {

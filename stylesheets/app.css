@@ -554,7 +554,12 @@ ul {
 }
 
 #testimonials {
-  margin-top: 15rem;
+  margin-top: 5rem;
+}
+@media screen and (min-width: 64em) {
+  #testimonials {
+    margin-top: 15rem;
+  }
 }
 
 .testimonials-container {
