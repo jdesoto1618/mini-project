@@ -83,6 +83,10 @@
   @include desktop__1280 {
     width: 35rem;
   }
+
+  @include desktop__1440 {
+    top: 0;
+  }
 }
 
 .bottom-about-copy-container {
