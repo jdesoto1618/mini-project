@@ -17,6 +17,7 @@
   @include desktop__1024 {
     margin-top: 15rem;
     margin-bottom: 6.4rem;
+    max-width: 111.8rem;
     &:before {
       left: -($large-gutter);
     }
