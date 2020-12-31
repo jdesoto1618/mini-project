@@ -207,6 +207,17 @@
 
   i {
     color: $active-link-color;
+    transition: color $animation-duration $animation-ease-function;
     @include absolute-centering('both');
+  }
+
+  @include desktop__1024 {
+    &:active,
+    &:hover,
+    &:focus {
+      i {
+        color: $c-purple;
+      }
+    }
   }
 }

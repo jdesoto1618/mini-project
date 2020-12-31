@@ -1012,12 +1012,18 @@ ul {
 }
 .social-icon i {
   color: #212353;
+  transition: color 0.3s linear;
   position: absolute;
   right: auto;
   bottom: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 64em) {
+  .social-icon:active i, .social-icon:hover i, .social-icon:focus i {
+    color: #9C69E2;
+  }
 }
 
 html,
