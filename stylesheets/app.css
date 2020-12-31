@@ -138,6 +138,7 @@ h4 {
   font-weight: normal;
   color: #212353;
   margin: 1.5rem 0;
+  z-index: 10;
 }
 
 h5,
@@ -318,8 +319,8 @@ ul {
     background-size: contain;
     position: absolute;
     width: 55rem;
-    left: auto;
-    right: 0;
+    left: 45%;
+    right: auto;
   }
 }
 
@@ -495,6 +496,7 @@ ul {
 
 .feature-card-image.bg-image {
   padding-bottom: 0;
+  z-index: 0;
 }
 @media screen and (min-width: 64em) {
   .feature-card-image {
