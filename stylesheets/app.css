@@ -987,6 +987,10 @@ ul {
   .listed-links {
     padding-left: 0;
   }
+  .listed-links a:active, .listed-links a:hover, .listed-links a:focus {
+    text-decoration: underline;
+    color: #9C69E2;
+  }
 }
 
 .social-icons-container {

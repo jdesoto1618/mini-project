@@ -177,6 +177,15 @@
 
   @include desktop__1024 {
     padding-left: 0;
+    
+    a {
+      &:active,
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        color: $c-purple;
+      }
+    }
   }
 }
 
