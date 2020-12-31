@@ -601,6 +601,7 @@ ul {
 @media screen and (min-width: 64em) {
   .testimonials-container {
     min-height: 70.9rem;
+    max-width: 111.8rem;
   }
   .testimonials-container:before {
     display: block;

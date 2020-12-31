@@ -28,6 +28,7 @@
   }
   @include desktop__1024 {
     min-height: 70.9rem;
+    max-width: 111.8rem;
     &:before {
       display: block;
     }
