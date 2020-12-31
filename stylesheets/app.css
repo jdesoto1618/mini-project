@@ -373,6 +373,11 @@ ul {
     min-height: 56rem;
   }
 }
+@media screen and (min-width: 90em) {
+  .bottom-about-section-container {
+    width: 111.8rem;
+  }
+}
 
 .bottom-about-image {
   background-image: url(../images/bottom-about-image.png);
