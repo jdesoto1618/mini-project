@@ -446,6 +446,11 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (min-width: 64em) {
+  .feature-copy {
+    z-index: 10;
+  }
+}
 
 @media screen and (min-width: 64em) {
   .feature-cards-container {
