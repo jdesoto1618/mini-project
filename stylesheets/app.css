@@ -325,8 +325,18 @@ ul {
 }
 @media screen and (min-width: 90em) {
   .top-about-image {
-    width: 88.5rem;
+    width: 75.5rem;
+    height: 46.8rem;
+    padding-bottom: 0;
     top: 26rem;
+    left: calc(50% - 10rem);
+    right: auto;
+  }
+}
+@media screen and (min-width: 100em) {
+  .top-about-image {
+    width: 88.5rem;
+    left: calc(50% - 20rem);
   }
 }
 
@@ -356,8 +366,13 @@ ul {
 
 @media screen and (min-width: 64em) {
   .about-copy {
-    max-width: 37%;
+    max-width: 32rem;
     margin-bottom: 4rem;
+  }
+}
+@media screen and (min-width: 80em) {
+  .about-copy {
+    max-width: 38rem;
   }
 }
 

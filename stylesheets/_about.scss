@@ -14,8 +14,17 @@
   }
 
   @include desktop__1440 {
-    width: 88.5rem;
+    width: 75.5rem;
+    height: 46.8rem;
+    padding-bottom: 0;
     top: 26rem;
+    left: calc(50% - 10rem);
+    right: auto;
+  }
+
+  @include desktop__1600 {
+    width: 88.5rem;
+    left: calc(50% - 20rem);
   }
 }
 
@@ -43,8 +52,12 @@
 
 .about-copy {
   @include desktop__1024 {
-    max-width: 37%;
+    max-width: 32rem;
     margin-bottom: 4rem;
+  }
+
+  @include desktop__1280 {
+    max-width: 38rem;
   }
 }
 
